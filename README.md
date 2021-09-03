@@ -3,6 +3,7 @@
 npx husky install
 
 ```bash
+npm i husky -D
 npx husky install
 ```
 
@@ -23,5 +24,4 @@ Execute "test" before commit
 npx husky add .husky/pre-commit "npm test"
 ```
 
-git add -A
-git commit -m "husky test"
+
